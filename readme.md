@@ -17,6 +17,7 @@ export DIGITAL_OCEAN_TOKEN='YOUR_API_TOKEN'
 ```
 
 Install prerequisites and boot a digital ocean machine:
+
 ```
 ./bin/setup
 ```
@@ -24,16 +25,19 @@ Install prerequisites and boot a digital ocean machine:
 Generate an SSH key:
 
 # Configure ssh
+
 ```
 vagrant ssh-config >> ~/.ssh/config
 ```
 
 Provision a pairing box:
+
 ```
 ansible-playbook pairing.yml -i ansible/inventory
 ```
 
 ## Testing
+
 ```
 rake
 ```
