@@ -7,7 +7,7 @@
 - Bundler
 
 ### Generate an API key
-Head on over to [digital ocean](https://cloud.digitalocean.com/settings/applications). Click the button labeled "Generate new token"
+Head on over to [Digital Ocean](https://cloud.digitalocean.com/settings/applications). Click the button labeled "Generate new token"
 
 Copy the token.
 
