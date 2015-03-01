@@ -22,8 +22,6 @@ Install prerequisites and boot a digital ocean machine:
 ./bin/setup
 ```
 
-Generate an SSH key:
-
 # Configure ssh
 
 ```
